@@ -1,0 +1,14 @@
+
+# this is an integer 
+print(2)
+print(2.3) # this is a float
+print("d") # this is a character
+print(True) # this is a boolean
+print("dsjkadlsajk") # this is a string
+# Data types
+# CRIBS
+# C = character e.g. "a"
+# R = reel/flaot e.g. (4.66)
+# I = Integer e.g. (222)
+# B = Boolean e.g. True
+# S = string e.g. "hello" 
