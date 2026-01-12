@@ -1,0 +1,27 @@
+#variables explained
+#variables definition:
+#a named location
+#in a computers memory
+#that sotres a value
+#and the value can change
+
+#example:
+
+name = "Zachary" # this is a variable
+#the varibale is called "name"
+#the variable contains a value, "Zachary"
+
+
+#5 data types
+character = "d"
+realfloat = 2.34525
+integer = 33
+boolean = True
+string = "fdkfpeopdm"
+
+print("this is a character:",character)
+print("this is a real/float:",realfloat)
+print("this is a integer:",integer)
+print("this is a boolean:",boolean)
+print("this is a string:",string)
+
