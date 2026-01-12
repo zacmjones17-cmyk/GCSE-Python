@@ -1,0 +1,16 @@
+#constants explained
+#variables have values that can change
+#constants have values that cannot change
+#variables are written in lower case
+#constants are written in full CAPS
+
+#example of a constant
+FREE_THROW = 1
+TREE_POINTER = 3
+PI = 3.14159265359
+
+#definition:
+#a constant is a named location
+#in a computers memory
+#that stores a value
+#and the value should ot be changed
