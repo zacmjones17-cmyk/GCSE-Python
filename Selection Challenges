@@ -1,0 +1,89 @@
+#CH1
+
+num_1 = int(input("Enter a number:"))
+
+num_2 = int(input("Enter a numbe:"))
+
+if num_1 > num_2:
+    print(num_2, num_1)
+
+else: print(num_1, num_2)
+
+
+#CH2
+
+num = int(input("Enter a number:"))
+
+if num >= 20:
+    print("Too high")
+
+else:
+    print("Thank you")
+
+
+#CH3
+
+num = int(input("Enter a number between 10 and 20:"))
+
+if num > 10 and num < 100:
+    print("Thank you")
+
+else:
+    print("Incorrect answer")
+
+
+#CH4
+
+fav_colour = str(input("What is you favourite colour:"))
+
+if fav_colour == "red" or fav_colour == "RED" or fav_colour == "Red":
+    print("I like red too")
+    
+else:
+    print("I dont like", fav_colour,",",fav_colour, "is for loosers")
+        
+
+#CH5
+
+
+raining = str(input("Is it raining")).lower()
+if raining == "yes":
+    windy = str(input("Is it windy"))
+    if windy == "yes":
+        print("It is to windy for an umbrella")
+    else:
+        print("Take and umrella")  
+else:
+    print("have a nice day")
+
+
+#CH6
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
