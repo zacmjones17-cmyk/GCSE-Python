@@ -1,0 +1,57 @@
+#CH1 
+name = str(input("Enter you name"))
+
+n = 0
+f = 3
+for i in range(n,f):
+    print(name)
+    
+#CH2 
+
+name = str(input("Enter you name"))
+
+num = int(input("Enter a number"))
+
+for i in range(num):
+    print(name) 
+
+#CH3
+
+name = str(input("Enter your name"))
+
+for i in (name):
+    print(i)
+
+
+#CH4
+
+num = int(input("Enter a number between 1 and 12"))
+
+multiple = 1
+for i in range (12):
+    print(num, "X", multiple, "=", num * multiple)
+    multiple += 1
+
+CH5 
+
+num = int(input("Enter a number below 50"))
+
+for i in range(num, 0, -1):
+    print(i)
+
+
+CH6
+
+total = 0
+
+for i in range(5):
+    num = int(input("Enter a number"))
+    yes_or_no = str(input("Do you want it included"))
+    if yes_or_no == "y":
+        total += num
+
+print(total)
+
+#CH7
+
+
