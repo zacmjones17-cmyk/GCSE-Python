@@ -1,0 +1,48 @@
+#CH1: 
+
+total = 0
+while total <= 50:
+    num = int(input("Enter a number"))
+    total += num
+    print("The total is",total)
+
+
+#CH2
+
+num = 0
+
+while num <= 5:
+    num = int(input("Enter a number"))
+
+print("The last number you entered was", num)
+
+
+
+#CH3 
+
+ans = "y"
+
+while ans == "y":
+    num = int(input("Enter a number"))
+    ans = str(input("Do you want to enter another number"))
+
+print(num)
+
+
+#CH4
+
+total = 0
+ans = "y"
+
+while ans == "y":
+    name = str(input("Who do you want to invite"))
+    print(name, "has been invited")
+    total += 1
+    ans = str(input("Do you want to invite another person"))
+
+print(total, "people have been invited ")
+
+
+#CH5
+
+
