@@ -1,0 +1,60 @@
+#For loop challenge1 (GCSECS.COM)
+
+#Rearrange the two lines of code below
+#to display the word "kebab" 10 times
+#HINT: There might be some indentation
+
+
+
+for i in range(10):
+  print("kebab")
+
+
+#For loop challenge2
+
+#The code below displays the answers to the...
+#2 times table. Change it to display the..
+#answers to the 3 times table
+
+for i in range(0, 25, 3):
+    print(i)
+
+
+
+#For loop challenge3 (GCSECS.COM)
+
+#The code below is mixed up
+#It should ask the user to enter their name.
+#It should then display the name twice
+#If possible, upgrade the code to...
+#ask the user how many times they want...
+#their name to be displayed
+
+
+name = str(input("Input your name>>>"))
+for i in range(2):
+  print(name)
+
+
+
+
+
+#For loop challenge4(GCSECS.COM)
+
+#The code below is mixed up and has 1 error
+#It should ask the user to enter a times table
+#It should then display the times table
+#Also, you may need to fix indentation
+
+
+number = int(input("Enter a times table: "))
+print("showing the",number,"times table")
+for i in range(1,13):
+
+  print(i ,"x", number, "=", i+number)
+
+
+
+
+
+
