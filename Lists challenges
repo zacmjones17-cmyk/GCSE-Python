@@ -26,3 +26,14 @@ print("In the list there is:", car)
 
 #CH3 
 
+ans = "y"
+
+partylist = []
+
+while ans == "y":
+    person = input("Who do you want to invite")
+    partylist.append(person)
+    ans = input("Do you want to enter another")
+
+print(len(partylist))
+
