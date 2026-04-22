@@ -1,0 +1,28 @@
+#CH1
+
+cars = []
+car_brand = input("Enter a car brand")
+cars.append(car_brand)
+car_brand1 = input("Enter a car brand")
+cars.append(car_brand1)
+car_brand2 = input("Enter a car brand")
+cars.append(car_brand2)
+print(cars)
+
+
+#CH2
+
+car = []
+variable = "t"
+while variable != "x":
+    car_brand = input("Enter a car brand or press x to exit")
+    if car_brand != "x":
+        car.append(car_brand)
+    elif car_brand == "x":
+        break
+print("Exiting...")
+print("In the list there is:", car)
+
+
+#CH3 
+
