@@ -1,0 +1,113 @@
+#Random challenge1
+#The code below is meant to...
+#..generate a random integer..
+#..between zero and ten
+#Can you fix it?
+
+import random
+
+number = random.randint(0,10)
+print(number)
+
+
+#Random challenge2
+#The code below is meant to...
+#..generate a random integer..
+#..generate another random integer..
+#Add the two interges together
+#Display the sum
+#Can you fix it?
+
+import random
+
+num1 = random.randint(0,10)
+num2 = random.randint(0,10)
+
+total = num1 + num2
+
+print(num1,"+",num2,"=",total)
+
+
+#Random challenge3
+#The code below is meant to..
+#display a random times table..
+#Everytime you run the code.
+#Might be the 5 times table
+#Or the 3 times table
+#But, its got errors
+#Can you fix it?
+
+import random
+
+number = random.randint(6,120)
+
+for i in range(1,13):
+    print(i, "x", number, "=", i * number)
+
+
+
+#Random challenge4
+#The code below is meant to..
+#generate an integer between 1 and 12
+#generate another integer between 1 and 12
+#Multiply them together
+#Ask the user to multiply them together
+#Check if the user got the right answer
+#But, its got errors
+#Can you fix it?
+
+import random
+
+num1 = random.randint(1,12)
+num2 = random.randint(1,12)
+
+total = num1 * num2
+
+num1 = str(num1)
+num2 = str(num2)
+
+answer = int(input("What is "+num1+" x "+num2+">>>"))
+if total == answer:
+    print("correct!")
+else: print("incorrect!")
+
+
+
+#Random challenge5
+#generate an integer between 1 and 12
+#generate another integer between 1 and 12
+#Multiply them together
+#Ask the user to multiply them together
+#Check if the user got the right answer
+#Repeat the above 5 times in total
+#Finally, display how many the user...
+#...got correct
+#But, its got errors
+#Can you fix it?
+
+import random
+
+correctAnswerCount = 0
+
+for i in range(5):
+    num1 = random.randint(1,12)
+    num2 = random.randint(1,12)
+
+    total = num1 * num2
+
+    num1 = str(num1)
+    num2 = str(num2)
+
+    answer = int(input("What is "+num1+" x "+num2+">>>"))
+    if total == answer:
+        print("correct!")
+        correctAnswerCount = correctAnswerCount +1
+    
+    else: print("incorrect!")
+
+print("You got",correctAnswerCount,"/5")
+
+
+
+
+
