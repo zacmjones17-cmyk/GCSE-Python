@@ -1,0 +1,53 @@
+#CH1
+
+MySpaceCompany = []
+
+print(MySpaceCompany)
+for i in range(3):
+    MySpaceCompany.append(input("enter a space vehicle"))
+print(MySpaceCompany)
+
+
+
+#CH2 
+
+MySpaceCompany = ["Rocket pack", "Moon base", "Moon buggy"]
+
+print(MySpaceCompany)
+
+MySpaceCompany[0] = ("Rich people going to mars")
+
+print(MySpaceCompany)
+
+MySpaceCompany[1] = ("Rich people going to moon")
+
+
+print(MySpaceCompany)
+
+
+#CH3
+
+stuff = [["1", "2", "3", "4"],["a","b","c","d"],["I","II", "III", "IV"],]
+
+print(stuff)
+
+stuff[1][2] = "croydon"
+
+
+print(stuff)
+
+
+
+#CH4
+
+OuterArray = []
+InnerArray1 = []
+InnerArray2 = []
+
+print(OuterArray)
+
+OuterArray.append(InnerArray1)
+
+OuterArray.append(InnerArray2)
+
+print(OuterArray)
