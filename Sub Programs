@@ -1,0 +1,12 @@
+#CH1 
+
+def menu():
+    print("Carrer mode")
+    print("Tournament mode")
+    print("Online Seasons")
+
+menu()
+
+
+#CH2 
+
